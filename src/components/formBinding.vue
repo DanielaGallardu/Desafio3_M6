@@ -13,9 +13,9 @@ export default {
       tipoLetra: ['Franklin Gothic Medium', 'Times New Roman', 'Arial', 'sans-serif'],
       tamanoLetraSelected: '1rem',
       tamanoLetra: [
-        { value: '0.5rem', label: 'Pequeño' },
-        { value: '1rem', label: 'Mediano' },
-        { value: '2rem', label: 'Grande' }
+        { value: '1rem', label: 'Pequeño' },
+        { value: '2rem', label: 'Mediano' },
+        { value: '3rem', label: 'Grande' }
       ]
     }
   }
@@ -25,7 +25,7 @@ export default {
   <div class="container py-5">
     <h1 class="text-center mb-4">Personaliza la Figura</h1>
     <div class="row">
-      <!-- Bloque Izquierda (Formulario) -->
+      <!--Izquierda (Formulario) -->
       <div class="col-md-5 mb-4">
         <form class="p-4 bg-light rounded shadow">
           <!-- Color de fondo -->
@@ -88,7 +88,7 @@ export default {
         </form>
       </div>
 
-      <!--  Vista Previa  -->
+      <!--  Vista Previa de la figura  -->
       <div class="col-md-7 d-flex justify-content-center align-items-center">
         <div id="resultado"
           class="text-center d-flex justify-content-center align-items-center p-4 bg-white rounded shadow" :style="{
